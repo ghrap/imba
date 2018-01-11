@@ -18,7 +18,7 @@ if ( isset($_POST['username']) && isset($_POST['password']) ) {
     $check_log->bind_param('ss', $username, $password);
 
     $username = $_POST['username'];
-    $password = $_POST['password'];
+    $password = ( $_POST['password'] );
 
     $check_log->execute();
 

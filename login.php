@@ -8,7 +8,6 @@
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-	<link href="img/logo imba v1.png" rel="shortcut icon">
   </head>
   <body>
     <div class="col-md-4 col-md-offset-4 form-login">
@@ -25,9 +24,9 @@
     <?php endif;?>
 
         <div class="outter-form-login">
-        <div class="logo-login">
-            <em class="glyphicon glyphicon-user"></em>
-        </div>
+        <center>
+		<img src="img/logo imba v1.png" width="20%">
+		</center>
             <form action="check-login.php" class="inner-login" method="post">
             <h3 class="text-center title-login">Login</h3>
                 <div class="form-group">
@@ -40,9 +39,6 @@
                 
                 <input type="submit" class="btn btn-block btn-custom-green" value="LOGIN" />
                 
-                <div class="text-center forget">
-                    <p>Forgot Password ?</p>
-                </div>
             </form>
         </div>
     </div>
